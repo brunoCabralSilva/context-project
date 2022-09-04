@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 50%;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  background-image: url('./wallpaper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.forms {
+  background-color: gray;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255,255,255,0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.275);
+}
+
+.data {
+  padding: 10px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255,255,255,0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.275);
+}
+
+.data-image {
+  width: 100%;
+  height: 50vh;
+}
+
+.data-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.data-content {
+  background-color: #053452;
+  width: 100%;
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  padding: 10px;
+  width: 30vw;
+}
+
+input {
+  width: 28vw;
+  padding: 10px;
+}
+
+button {
+  width: 30vw;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #2F3243;
   color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  transition: background-color linear 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #10141d;
+  transition: background-color linear 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+
+article {
+  width: 70%;
+  color: black;
+}
+
+.text {
+  display: flex;
+  padding: 15px 10px;
+  width: 85%;
+  background: rgba(255,255,255,0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.275);
+}
+
+strong {
+  width: 50%;
+}
+
+span {
+  width: 50%;
+  text-align: center;
 }
