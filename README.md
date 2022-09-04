@@ -1,5 +1,5 @@
-<h1>Context Project</h1>
+<h1 align="center">Context Project</h1>
 
-![Tela Inicial da Aplicação](src/Figura 12: Código em Execução.gif)
+<img src = "./src/Figura 12: Código em Execução.gif" alt="Tela inicial do projeto" />
 
-<h1>Projeto criado para praticar os principais conceitos que envolvem o Context do React</h1>
+<h1 align="center">Projeto criado para praticar os principais conceitos que envolvem o Context do React</h1>
